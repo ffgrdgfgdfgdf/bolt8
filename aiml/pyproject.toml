@@ -1,0 +1,17 @@
+[project]
+name = "bolt8"
+version = "0.1.0"
+description = "RAM+VRAM resident MoE inference for huge FP8 GGUF models on consumer GPUs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "torch>=2.2"]
+
+[project.scripts]
+bolt8 = "bolt8.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["bolt8*"]
