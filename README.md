@@ -5,6 +5,7 @@ in the test it got 4 tps on my hardware(7800xt 16gb vram and 32gb ram)
 ***I DO NOT KNOW IF THIS WILL WORK I AM STILL TESTING***
 
  if you dont want to go to the aiml folder for the readme for how this project works here is it.
+ the aiml folder contains a correct .md file
 
 
 
